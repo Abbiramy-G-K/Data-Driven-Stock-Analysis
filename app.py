@@ -244,7 +244,7 @@ else:
 # -------------------------------------------------------------------
 # Panel 5: Top 5 Gainers and Losers (Month-wise)
 # -------------------------------------------------------------------
-st.header("4) Monthly Top 5 Gainers and Losers")
+st.header("5) Monthly Top 5 Gainers and Losers")
 
 gainers_df = load_table("top5_gainers_monthwise")
 losers_df = load_table("top5_losers_monthwise")
